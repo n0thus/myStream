@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<style type="text/css">
+		html, body{
+			height: 100%;
+			width: 100%;
+
+			background: url(../img/bg.png);
+
+			overflow: hidden;
+		}
+
+		#board {
+			height: 100%;
+			width: 100%;
+
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		ul {
+		  list-style: none;
+		  position: relative;
+		  top: -13%;
+		  left: -15%; 
+
+		  width: 100%;
+		}
+
+		li {
+			float: left;
+			margin-left: 12.5%;
+		}
+
+		li img {
+			height: 95%;
+			width: auto;
+
+			vertical-align:middle
+		}
+
+		li span {
+			position: fixed;
+			top: 10%;
+			color: white;
+
+			font-size: 25px;
+			font-family: 'Source Sans Pro', sans-serif;
+		  	text-align: center;
+		}
+
+		.noselect {
+		  -webkit-user-select: none;
+		    -khtml-user-select: none;
+		    -moz-user-select: none;
+		    -o-user-select: none;
+		    user-select: none;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="board" class="noselect">
+		<ul>
+			<li class="status"><img src="https://image.noelshack.com/fichiers/2018/35/6/1535804836-status-offline.png" draggable="false"><span class="statusSpan">Offline</span></li>
+			<li class="viewers"><img src="https://image.noelshack.com/fichiers/2018/35/6/1535804836-views.png" draggable="false"><span class="viewersSpan"></span></li>
+			<li class="time"><img src="https://image.noelshack.com/fichiers/2018/35/6/1535804836-quality.png" draggable="false"><span class="timeSpan"></span></li>
+			<li class="newFollowers"><img src="https://image.noelshack.com/fichiers/2018/35/6/1535804836-followers.png" draggable="false"><span class="newFollowersSpan"></span></li>
+			<li class="newSubscribers"><img src="https://image.noelshack.com/fichiers/2018/35/6/1535804836-subscribers.png" draggable="false"><span class="newSubscribersSpan"></span></li>
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		function setOnline() {
+			$(".status").replaceWith('<li class="status"><img src="https://image.noelshack.com/fichiers/2018/35/6/1535804836-status-online.png"  draggable="false"><span class="statusSpan">Online</span></li>')
+			$(".viewers").show();
+			$(".time").show();
+			$(".newFollowers").show();
+			$(".newSubscribers").show();
+		}
+
+		function setOffline() {
+			$(".status").replaceWith('<li class="status"><img src="https://image.noelshack.com/fichiers/2018/35/6/1535804836-status-offline.png"  draggable="false"><span class="statusSpan">Offline</span></li>')
+			$(".viewers").hide();
+			$(".time").hide();
+			$(".newFollowers").hide();
+			$(".newSubscribers").hide();
+		}
+
+
+		function updateElements(viewers, time, nFollowers, nSubscribers) {
+			$(".viewersSpan").replaceWith("<span class='viewersSpan'>"+viewers+"<span>");
+
+
+			$(".timeSpan").replaceWith('<span class="timeSpan">'+time+'</span>');
+
+			$(".newFollowersSpan").replaceWith("<span class='newFollowersSpan'>"+nFollowers+"<span>");
+
+			$(".newSubscribersSpan").replaceWith("<span class='newSubscribersSpan'>"+nSubscribers+"<span>");
+		}
+
+
+
+		function addCommas(nStr)
+		{
+			nStr += '';
+			x = nStr.split(',');
+			x1 = x[0];
+			x2 = x.length > 1 ? ',' + x[1] : '';
+			var rgx = /(\d+)(\d{3})/;
+			while (rgx.test(x1)) {
+				x1 = x1.replace(rgx, '$1' + '.' + '$2');
+			}
+			return x1 + x2;
+		}
+
+		$(document).ready(() => {
+			setOffline();
+		});
+	</script>
+</body>
+</html>

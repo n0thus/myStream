@@ -1,0 +1,56 @@
+html, body{
+	height: 100%;
+	width: 100%;
+
+	background: url(../img/bg.png);
+
+	overflow: hidden;
+}
+
+#board {
+	height: 100%;
+	width: 100%;
+
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+ul {
+  list-style: none;
+  position: relative;
+  top: -13%;
+  left: -15%; 
+
+  width: 100%;
+}
+
+li {
+	float: left;
+	margin-left: 12.5%;
+}
+
+li img {
+	height: 95%;
+	width: auto;
+
+	vertical-align:middle
+}
+
+li span {
+	position: fixed;
+	top: 10%;
+	color: white;
+
+	font-size: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+  	text-align: center;
+}
+
+.noselect {
+  -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}

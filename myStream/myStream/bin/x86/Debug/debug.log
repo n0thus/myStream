@@ -1,0 +1,87 @@
+[0829/174757.246:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: about:blank (1)
+[0829/175043.594:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: about:blank (1)
+[0829/175134.638:INFO:CONSOLE(8)] "Uncaught SyntaxError: Unexpected token <", source: file:///D:/perso/myStreams/software/ui/js/connect.js (8)
+[0829/175136.540:INFO:CONSOLE(1)] "Uncaught ReferenceError: waiting is not defined", source: about:blank (1)
+[0829/175205.521:INFO:CONSOLE(8)] "Uncaught SyntaxError: Unexpected token <", source: file:///D:/perso/myStreams/software/ui/js/connect.js (8)
+[0829/175207.524:INFO:CONSOLE(1)] "Uncaught ReferenceError: waiting is not defined", source: about:blank (1)
+[0829/175235.520:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: about:blank (1)
+[0829/175244.348:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0829/175439.039:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: about:blank (1)
+[0829/175442.826:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0829/175524.250:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: about:blank (1)
+[0829/175605.841:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0829/175636.215:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: about:blank (1)
+[0829/180017.845:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0829/180055.956:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0829/180252.033:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0829/180611.380:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0829/180611.381:ERROR:command_buffer_proxy_impl.cc(101)] ContextResult::kFatalFailure: AllocateAndMapSharedMemory failed
+[0829/180620.526:INFO:CONSOLE(1)] "Uncaught ReferenceError: waiting is not defined", source: about:blank (1)
+[0829/180621.507:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'value' of null", source: about:blank (1)
+[0829/180645.409:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0829/180645.410:ERROR:command_buffer_proxy_impl.cc(101)] ContextResult::kFatalFailure: AllocateAndMapSharedMemory failed
+[0830/005710.999:INFO:CONSOLE(1)] "Uncaught SyntaxError: missing ) after argument list", source: about:blank (1)
+[0830/005711.995:INFO:CONSOLE(1)] "Uncaught SyntaxError: missing ) after argument list", source: about:blank (1)
+[0830/022537.654:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/022537.654:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/124311.982:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/124311.998:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/124311.998:ERROR:command_buffer_proxy_impl.cc(101)] ContextResult::kFatalFailure: AllocateAndMapSharedMemory failed
+[0830/124443.742:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/125741.234:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/125741.235:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/125812.311:INFO:CONSOLE(1)] "Uncaught SyntaxError: Invalid regular expression: missing /", source: about:blank (1)
+[0830/125813.702:INFO:CONSOLE(1)] "Uncaught SyntaxError: Invalid regular expression: missing /", source: about:blank (1)
+[0830/125815.200:INFO:CONSOLE(1)] "Uncaught SyntaxError: Invalid regular expression: missing /", source: about:blank (1)
+[0830/125816.724:INFO:CONSOLE(1)] "Uncaught SyntaxError: Invalid regular expression: missing /", source: about:blank (1)
+[0830/125818.222:INFO:CONSOLE(1)] "Uncaught SyntaxError: Invalid regular expression: missing /", source: about:blank (1)
+[0830/125819.542:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/130218.233:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/130402.500:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/130818.660:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/132331.665:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/132645.137:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/143907.803:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/144806.940:ERROR:gles2_cmd_decoder.cc(18268)] [.RenderWorker-0E3E5A48.GpuRasterization]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+[0830/144806.942:ERROR:gles2_cmd_decoder.cc(8115)] [.RenderWorker-0E3E5A48.GpuRasterization]GL ERROR :GL_INVALID_OPERATION : glFramebufferTexture2D: Attachment textarget doesn't match texture target
+[0830/144806.942:ERROR:gles2_cmd_decoder.cc(4616)] [.RenderWorker-0E3E5A48.GpuRasterization]GL ERROR :GL_INVALID_FRAMEBUFFER_OPERATION : glDrawElements: framebuffer incomplete
+[0830/144806.942:ERROR:gles2_cmd_decoder.cc(4616)] [.RenderWorker-0E3E5A48.GpuRasterization]GL ERROR :GL_INVALID_FRAMEBUFFER_OPERATION : glDrawElements: framebuffer incomplete
+[0830/144806.942:ERROR:gles2_cmd_decoder.cc(4616)] [.RenderWorker-0E3E5A48.GpuRasterization]GL ERROR :GL_INVALID_FRAMEBUFFER_OPERATION : glDrawElements: framebuffer incomplete
+[0830/144806.942:ERROR:gles2_cmd_decoder.cc(4616)] [.RenderWorker-0E3E5A48.GpuRasterization]GL ERROR :GL_INVALID_FRAMEBUFFER_OPERATION : glDrawElements: framebuffer incomplete
+[0830/144806.942:ERROR:gles2_cmd_decoder.cc(4616)] [.RenderWorker-0E3E5A48.GpuRasterization]GL ERROR :GL_INVALID_FRAMEBUFFER_OPERATION : glDrawElements: framebuffer incomplete
+[0830/144806.944:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/144806.944:ERROR:command_buffer_proxy_impl.cc(101)] ContextResult::kFatalFailure: AllocateAndMapSharedMemory failed
+[0830/144806.948:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/144806.948:ERROR:command_buffer_proxy_impl.cc(101)] ContextResult::kFatalFailure: AllocateAndMapSharedMemory failed
+[0830/145420.111:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/145854.384:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/145854.416:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/145854.416:ERROR:command_buffer_proxy_impl.cc(101)] ContextResult::kFatalFailure: AllocateAndMapSharedMemory failed
+[0830/145854.430:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/150223.382:INFO:CONSOLE(0)] "Refused to apply style from 'https://www.twitch.tv/css/player.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.", source: https://www.twitch.tv/popout/n0thusyt/chat?popout= (0)
+[0830/150223.383:INFO:CONSOLE(0)] "Refused to execute script from 'https://www.twitch.tv/js/player.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.", source: https://www.twitch.tv/popout/n0thusyt/chat?popout= (0)
+[0830/150233.848:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/152948.669:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0830/154619.912:ERROR:broker_win.cc(134)] Error sending sync broker message
+[0901/142928.201:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(65,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(87,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0901/142957.663:INFO:CONSOLE(0)] "Refused to apply style from 'https://www.twitch.tv/css/player.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.", source: https://www.twitch.tv/popout/n0thusyt/chat?popout= (0)
+[0901/142957.665:INFO:CONSOLE(0)] "Refused to execute script from 'https://www.twitch.tv/js/player.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.", source: https://www.twitch.tv/popout/n0thusyt/chat?popout= (0)
+[0902/173210.984:ERROR:cache_util_win.cc(20)] Unable to move the cache: 2
+[0902/173210.986:ERROR:cache_util.cc(134)] Unable to move cache folder GPUCache to old_GPUCache_000
+[0902/173210.986:ERROR:disk_cache.cc(169)] Unable to create cache
+[0902/173210.986:ERROR:shader_disk_cache.cc(601)] Shader Cache Creation failed: -2
+[0902/173212.839:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(65,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(87,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0908/151441.084:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(65,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(87,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0908/170247.600:WARNING:angle_platform_impl.cc(59)] compileToBinary(228): 
+C:\fakepath(65,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(87,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+

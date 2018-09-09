@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/solid.css" integrity="sha384-wnAC7ln+XN0UKdcPvJvtqIH3jOjs9pnKnq9qX68ImXvOGz2JuFoEiCjT8jyZQX2z" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style type="text/css">
+		html,body {
+			height: 100%;
+			width: 100%;
+			background: url(https://image.noelshack.com/fichiers/2018/35/6/1535804836-bg.png);
+
+			overflow: hidden;
+		}
+
+
+		img {
+			width: 90%;
+			height: auto;
+
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.noselect {
+		  -webkit-user-select: none;
+		    -khtml-user-select: none;
+		    -moz-user-select: none;
+		    -o-user-select: none;
+		    user-select: none;
+		}
+
+
+		#form {
+			width: 80%;
+			height: 50%; 
+
+			position: absolute;
+			bottom: 5%;
+			left: 50%;
+			transform: translate(-50%, 0%);
+		}
+
+
+		@keyframes gradient {
+		  0% {
+		    background-position: 0 0;
+		  }
+		  100% {
+		    background-position: 100% 0;
+		  }
+		}
+		.webflow-style-input {
+		  position: absolute;
+		  display: flex;
+		  flex-direction: row;
+		  width: 80%;
+		  max-width: 400px;
+		  height: 10%;
+		  border-radius: 2px;
+		  padding: 1.4rem 2rem 1.6rem;
+		  background: rgba(57, 63, 84, 0.4);
+
+		  left: 50%;
+		  transform: translateX(-50%);
+		  top: 12.5%;
+		}
+		.webflow-style-input:after {
+		  content: "";
+		  position: absolute;
+		  left: 0px;
+		  right: 0px;
+		  bottom: 0px;
+		  z-index: 999;
+		  height: 2px;
+		  border-bottom-left-radius: 2px;
+		  border-bottom-right-radius: 2px;
+		  background-position: 0% 0%;
+		  background: linear-gradient(to right, #a203ad, #700477, #4a074f, #700477, #a203ad, #700477);
+		  background-size: 500% auto;
+		  animation: gradient 3s linear infinite;
+		}
+		.webflow-style-input input {
+		  flex-grow: 1;
+		  color: #bfd2ff;
+		  font-size: 15px;
+		  line-height: 2.0rem;
+		  vertical-align: middle;
+		  background-color: rgba(57, 63, 84, 0.0);
+		  border: none;
+		}
+		.webflow-style-input input::-webkit-input-placeholder {
+		  color: #7881a1;
+		}
+
+		.fa-cog  {
+			color: white;
+			font-size: 50px;
+
+			width: 100%;
+			text-align: center;
+
+			position: absolute;
+			top: 60%;
+
+		}
+
+
+		.desc {
+		  width: 100%;
+
+		  position: absolute;
+		  top: 72.5%;
+
+		  color: white;
+		  font-family: 'Source Sans Pro', sans-serif;
+		  text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<img src="https://image.noelshack.com/fichiers/2018/35/6/1535804836-logo.png" draggable="false"/>
+
+	<div id="form">
+		<div class="webflow-style-input">
+		    <input class="" type="username" id="username" placeholder="What's your twitch username ?"></input>
+	 	 </div>
+
+	</div>
+
+	<script type="text/javascript">
+		function waiting() {
+			$('#form').hide();
+			$("body").append("<i class='fa fa-cog fa-spin'></i>");
+			$("body").append("<i class='desc'></i>")
+		}
+
+		function renderUsername() {
+			$(".fa-cog").replaceWith("");
+			$(".desc").replaceWith("");
+			$('#form').show();
+		}
+
+
+		function setDescText(text) {
+			$(".desc").replaceWith("<i class='desc'>"+text+"</i>")
+		}
+	</script>
+</body>
+</html>
